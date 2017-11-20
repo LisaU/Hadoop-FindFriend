@@ -1,15 +1,33 @@
-# Hadoop-FindFriend
-基于Hadoop的好友推荐系统
-该系统利用基于密度的新型聚类算法，对给定用户基于好友推荐。本系统的开发IDE采用eclipse，使用maven构建项目，数据库选用Mysql，后台技术采用Struts2+Hibernate+Spring的架构，前端使用Easyui+Ajax的技术实现前后端的数据交互，算法的主要计算任务用Hadoop Mapreduce来完成。综合来说，本系统面临的主要挑战如下：
+# 基于Hadoop2.x的好友推荐系统
+###主要技术
 
-1、如何用MapReduce来实现聚类算法；
+- 后端技术：spring、Hibernate、struts2
 
-2、如何使用JavaWeb技术实现Hadoop任务的远程提交；
+- 前端技术：JSP、jQuery、Ajax、EasyUI
 
-3、如何实现Hadoop任务的实时监控。
+- 数据库：MySQL
 
-结构：
-1、Hadoop分布式集群平台搭建文档
-2、好友推荐系统项目文档
-3、ppt
-4、视频
+- 服务器：Tomcat7
+
+- 版本控制：git
+
+###开发工具和环境
+- Eclipse Java EE IDE for Web Developers. Version: Luna Service Release 1 (4.4.1)，自带maven插件。
+
+- Hadoop hadoop-2.5.0-cdh5.3.6
+
+- Maven 3.3.9
+
+- Apache Tomcat/7.0.47（Maven Tomcat Plugin）
+
+- JDK 1.7
+
+- Mysql 5.6
+
+- Win7 操作系统
+
+- 
+
+###详细开发流程
+
+[基于Hadoop的好友推荐系统项目综述](http://blog.csdn.net/xiaokang123456kao/article/details/75006624)
